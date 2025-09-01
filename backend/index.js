@@ -26,7 +26,7 @@ async function main() {
 const app = express();
 
 app.use(cors({
-    origin: 'https://taskwar-ckj1.onrender.com', 
+    origin: 'https://lucky-arithmetic-e52766.netlify.app', 
     credentials: true 
   }));
 
