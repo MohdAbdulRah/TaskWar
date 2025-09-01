@@ -5,7 +5,11 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    port: process.env.PORT || 5173, // Render ka PORT use karega
-    host: true                      // external access ke liye
+    port: process.env.PORT || 5173,
+    host: true,
+    allowedHosts: [
+      'taskwar-ckj1.onrender.com'  // apna Render frontend URL
+    ]
   }
+
 })
