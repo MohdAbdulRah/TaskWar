@@ -26,7 +26,7 @@ async function main() {
 const app = express();
 
 app.use(cors({
-    origin: 'https://lucky-arithmetic-e52766.netlify.app', 
+    origin: 'https://68b5847001a91fa5be917753--lucky-arithmetic-e52766.netlify.app', 
     credentials: true 
   }));
 
