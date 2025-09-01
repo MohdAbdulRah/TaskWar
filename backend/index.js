@@ -26,7 +26,7 @@ async function main() {
 const app = express();
 
 app.use(cors({
-    origin: 'https://taskwarfrontend.onrender.com', 
+    origin: 'https://taskwar-ckj1.onrender.com', 
     credentials: true 
   }));
 
